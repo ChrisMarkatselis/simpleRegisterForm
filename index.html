@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./index.css">
+<title> Simple register form</title>
+</head>  
+<body>
+<h2>Register Form</h2>
+
+    <form  action="/register.js" method="POST">
+        
+        <div>
+            <label for="username">Username</label><br>
+            <input type="text" placeholder="Write your username" name="username" required autocomplete="off">
+        </div>
+        
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="Write your password" name="password" required autocomplete="off">
+        </div>
+
+        <div>
+            <label for="conPwd">Confirmation password</label><br>
+            <input type="password" placeholder="Write your password" name="conPwd" required autocomplete="off">
+        </div>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="Write your email" name="email" autocomplete="off">
+        </div>
+
+        <div>
+            <label>
+            <input type="checkbox">I agree with terms and conditions
+            </label>
+        </div>
+
+        <div>
+            <button type="submit" class="cancelbtn" >Register</button>
+        </div>
+    </form>
+
+
+</body> 
+</html>
